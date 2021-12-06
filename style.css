@@ -1,0 +1,68 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+ 
+    
+   
+}
+
+.add
+{
+    position: fixed;
+    top: 1rem;
+    right: 2rem;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+
+.note
+{
+    background-color: burlywood;
+    width: 250px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+    
+}
+
+.tools
+{
+    background-color: chartreuse;
+    width: 250px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+
+}
+textarea
+{
+
+    width: 250px;
+    height: 270px;
+    background-color: coral;
+    font-size: 30px;
+}
+
+.hidden
+{
+
+    display: none;
+}
